@@ -1,0 +1,85 @@
+@import 'normalize.css';
+
+@font-face {
+    font-family: 'Poppins-Regular';
+    src: url('../../fonts/Poppins/Poppins-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Poppins-ExtraBold';
+    src: url('../../fonts/Poppins/Poppins-Regular.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+:root {
+    --brand-ai-1: rgba(132, 112, 255, 1);
+    --brand-oscar-gold: rgba(186, 158, 94, 1);
+    --brand-tako-1: rgba(0, 181, 238, 1);
+    --brand-tako-2: rgba(0, 0, 0, 1);
+    --brand-tiktok-plus-1: rgba(178, 132, 43, 1);
+    --brand-tiktok-background: rgba(255, 255, 255, 1);
+    --brand-tiktok-background-element: rgba(0, 0, 0, 1);
+    --brand-tiktok-black: rgba(0, 0, 0, 1);
+    --brand-tiktok-razzmatazz: rgba(254, 44, 85, 1);
+    --brand-tiktok-splash: rgba(37, 244, 238, 1);
+    --brand-tiktok-spotlight: rgba(0, 0, 0, 1);
+    --brand-tiktok-subject-in-spotlight: rgba(255, 255, 255, 1);
+    --brand-tiktok-white: rgba(255, 255, 255, 1);
+    --brand-tiktokphotos-1: rgba(100, 250, 205, 1);
+    --brand-tiktokphotos-2: rgba(0, 170, 150, 1);
+    --brand-tokopedia-1: rgba(0, 170, 91, 1);
+    --creation-adjust-background: rgba(255, 178, 215, 1);
+    --creation-adjust-hsl-blue: rgba(50, 152, 246, 1);
+    --creation-adjust-hsl-cyan: rgba(53, 225, 225, 1);
+    --creation-adjust-hsl-fuchsia: rgba(201, 46, 255, 1);
+    --creation-adjust-hsl-green: rgba(120, 194, 94, 1);
+    --creation-adjust-hsl-indigo: rgba(88, 86, 214, 1);
+    --creation-adjust-hsl-orange: rgba(255, 147, 61, 1);
+    --creation-adjust-hsl-red: rgba(255, 82, 82, 1);
+    --creation-adjust-hsl-yellow: rgba(242, 205, 70, 1);
+    --creation-adjust-label: rgba(142, 31, 84, 1);
+    --creation-filter-background: rgba(255, 191, 191, 1);
+    --creation-filter-label: rgba(139, 35, 41, 1);
+    --creation-flash-light-cold: rgba(211, 234, 255, 1);
+    --creation-flash-light-warm: rgba(255, 242, 205, 1);
+    --creation-glance-watermark: rgba(255, 248, 90, 1);
+    --creation-pill-overlay: rgba(230, 230, 230, 0.28);
+    --ec-black-text-1: rgba(0, 0, 0, 1);
+    --ec-black-text-2: rgba(0, 0, 0, 0.65);
+    --ec-black-text-3: rgba(0, 0, 0, 0.48);
+    --ec-cyan-banner: rgba(240, 251, 251, 1);
+    --ec-cyan-border: rgba(0, 140, 141, 0.14);
+    --ec-cyan-main: rgba(0, 184, 185, 1);
+    --ec-cyan-tag: rgba(0, 184, 185, 0.12);
+    --ec-cyan-text: rgba(8, 146, 146, 1);
+    --ec-cyan-text-on-tag: rgba(8, 146, 146, 1);
+    --ec-primary-banner: rgba(255, 242, 245, 1);
+    --ec-primary-border: rgba(225, 5, 67, 0.1);
+    --ec-primary-tag: rgba(254, 44, 85, 0.12);
+    --ec-primary-text-on-tag: rgba(225, 5, 67, 1);
+    --ec-white-text-1: rgba(246, 246, 246, 1);
+    --ec-white-text-2: rgba(255, 255, 255, 0.88);
+    --ec-white-text-3: rgba(255, 255, 255, 0.6);
+    --feed-anchor-bg: rgba(37, 37, 37, 0.34);
+    --feed-top-tab-text-shadow-a30: rgba(0, 0, 0, 0.3);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Poppins-Regular', 'Poppins-ExtraBold', system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell,
+        Noto Sans, sans-serif, 'Roboto', 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
+        'Segoe UI Symbol', 'Noto Color Emoji';
+    font-size: 1.6em;
+    line-height: 1.5;
+    text-rendering: optimizeSpeed;
+}
